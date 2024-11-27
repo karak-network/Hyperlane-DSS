@@ -6029,7 +6029,7 @@ __metadata:
     hardhat: "npm:^2.22.2"
     hardhat-gas-reporter: "npm:^1.0.9"
     hardhat-ignore-warnings: "npm:^0.2.11"
-    karak-onchain-sdk: "git@github.com:karak-network/karak-onchain-sdk.git#commit=f3a1c280bca15c81485d077dbe4dcaa88fc6a823"
+    karak-onchain-sdk: "npm:^1.0.0"
     prettier: "npm:^2.8.8"
     prettier-plugin-solidity: "npm:^1.1.3"
     solhint: "npm:^4.5.4"
@@ -18837,14 +18837,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karak-onchain-sdk@git@github.com:karak-network/karak-onchain-sdk.git#commit=f3a1c280bca15c81485d077dbe4dcaa88fc6a823":
+"karak-onchain-sdk@npm:^1.0.0":
   version: 1.0.0
-  resolution: "karak-onchain-sdk@git@github.com:karak-network/karak-onchain-sdk.git#commit=f3a1c280bca15c81485d077dbe4dcaa88fc6a823"
+  resolution: "karak-onchain-sdk@npm:1.0.0"
   dependencies:
     "@chainlink/contracts": "npm:^1.2.0"
     "@openzeppelin/contracts": "npm:^5.0.2"
     "@openzeppelin/contracts-upgradeable": "npm:^5.0.2"
-  checksum: 00d00f66ddda7622b594f88f686b962dfd6b76f77abf0e2f1207573e4fa5f3d21fb51fae54431accf55b67b6c3d874636f461e0f1204dbda06eadca8f2bf6391
+  checksum: 8073b6d0cf30f61d1aea3b9b38b9158a631126fe360195a997f854b8fa6d27bfdd6d45f46cbca0ff1cd12ceae36ba840b4112dc7ddc1e07947650072112d45c1
   languageName: node
   linkType: hard
 
