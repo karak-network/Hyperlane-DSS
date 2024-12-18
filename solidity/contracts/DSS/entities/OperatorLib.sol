@@ -5,12 +5,12 @@ import {CheckpointsUpgradeable} from "@openzeppelin/contracts-upgradeable/utils/
 import {Enrollment, EnrollmentStatus, EnumerableMapEnrollment} from "../../libs/EnumerableMapEnrollment.sol";
 import {EnumerableMap} from "@openzeppelin/contracts/utils/structs/EnumerableMap.sol";
 import {SignatureCheckerUpgradeable} from "@openzeppelin/contracts-upgradeable/utils/cryptography/SignatureCheckerUpgradeable.sol";
-import {IERC20} from "forge-std/interfaces/IERC20.sol";
-import {IERC4626} from "forge-std/interfaces/IERC4626.sol";
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {IERC4626} from "@openzeppelin/contracts/interfaces/IERC4626.sol";
 
 import {HyperlaneDSSConstants} from "./Constants.sol";
 import {HyperlaneDSSLib} from "./HyperlaneDSSLib.sol";
-import {BaseDSSOperatorLib} from "karak-onchain-sdk/src/entities/BaseDssOperatorlib.sol";
+import {BaseDSSOperatorLib} from "karak-onchain-sdk/src/entities/BaseDSSOperatorLib.sol";
 import {IBaseDSS} from "karak-onchain-sdk/src/interfaces/IBaseDSS.sol";
 
 import "../../interfaces/DSS/vendored/Events.sol";
